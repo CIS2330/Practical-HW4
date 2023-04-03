@@ -210,7 +210,7 @@ The heart of the smart contract is a simple logical switch statement used to rou
 
 #### Step 1.2: Creation
 
-**TODO:** `on_create`: This sequence runs when the smart contract is created. It takes application arguments from the creation transaction and puts them into the proper global variables.
+**TODO:** `on_creation`: This sequence runs when the smart contract is created. It takes application arguments from the creation transaction and puts them into the proper global variables.
 - Store the values of election parameters passed from the application arguments of the election that was created.
   - `ElectionEnd` - the round number for the end of the election (first app arg, 0)
   - `NumVoteOptions` - the number of options there are to vote for (second app arg, 1)
