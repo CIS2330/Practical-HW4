@@ -354,7 +354,7 @@ Here is some useful documentation:
 
 - https://github.com/PureStake/algosigner/blob/develop/docs/dApp-integration.md#working-with-transactions
 - https://purestake.github.io/algosigner-dapp-example/
-
+- https://github.com/PureStake/algosigner/blob/develop/docs/legacy-dApp-integration.md (This one is best for this hw because it uses the window.AlgoSigner syntax)
 Remark: Some code on the Internet may use the legacy AlgoSigner API v1 (e.g., `AlgoSigner.sign`). Be careful to only use the v2 API (`AlgoSigner.signTxn`).
 
 #### Indexer API
